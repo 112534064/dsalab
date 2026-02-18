@@ -41,10 +41,10 @@ int main()
 	do
 	{
 		printf("\n---stack menu---\n";
-		print("1.push\n2.pop\n3.display\n4.exit\n");
+		printf("1.push\n2.pop\n3.display\n4.exit\n");
 		printf("enter your choice:");
 		scanf("%d",&choice);
-		swich(choice)
+		switch(choice)
 		{
 			case 1:
 				push();
@@ -65,3 +65,4 @@ int main()
 	while(choice!=4);
 	return 0;
 }
+
